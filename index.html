@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js">
+
+    </script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body id="full">
+    <div class="container">
+        <div class="row">
+        <header>
+            <nav class="navbar">
+                <div class="container-fluid">
+                <a id="aa" href="#home"> HOME </a>
+                <a id="aa" href="#grid"> GRID </a>
+                <a id="aa" href="#testimonal">TESTIMONALS </a>
+                <a id="aa" href="#breeds"> DOG BREEDS </a>
+                <a id="aa" href="#image-section"> IMAGE SECTION</a>
+
+            </div>
+            </nav>
+        </header>
+        </div>
+    <br> <br> <br>
+     <section id="home">
+<div class="row" id="image">
+    <div class="col-4"><h2 id="quote">Does not the gratitude of the dog put to shame any man who is ungrateful to his benefactors?</h2><br><hr style="border:10px solid black;"/>
+    <h3>Saint Basil</h3></div>
+</div>  <br>  <br> <br> <br> <br> <br> <br> 
+        <hr class="thick-line" /> <br>
+
+        <div class="row">
+            <div class="col">
+<button class="btn" onclick="prevImage()"><div class="left"></div></button>
+</div>
+<div class="col offset-10">
+
+<button class="btn" onclick="nextImage()"><div class="right"></div></button>
+</div>
+
+</div>
+</section>
+<br> <br> <br>
+
+<section id="grid">
+ <div class="container-fluid">
+    <div class="row">
+    <div class="col-3">
+      <div class="row"> <img id="img1" src="https://a-z-animals.com/media/2021/10/golden-retriever-in-meadow.jpg"></div>
+      <br>
+        <div class="row"><img id="img2" src="https://media.istockphoto.com/id/610255060/photo/dog-licking-a-happy-man.jpg?s=612x612&w=0&k=20&c=pwtoYXDtbf33xvLos7ABS0N_hDiXg7DJgfnd81mnzi0="></div>
+    </div>
+
+    <div class="col-4 offset-1">
+        <div class="row-2"><img id="img3" src="https://www.thesprucepets.com/thmb/F-6m45bLy1Ecu2p-egqup7BPVzI=/2124x0/filters:no_upscale():strip_icc()/GoldenPuppy185743593-56a9c1f23df78cf772aa4a33.jpg"></div>
+    </div>
+
+    <div class="col-3 offset-1">
+        
+        <div class="row"> <img id="img4" src="https://i.pinimg.com/474x/d0/d4/22/d0d4229fcde31c5fa70c5b65caedde31.jpg"> </div>
+<br>
+        <div class="row"> <img id="img5" src="https://www.shutterstock.com/image-photo/happy-handsome-young-man-play-260nw-2209548029.jpg"></div>
+    </div>
+
+    </div>
+
+</div>
+</section>
+<br> <br> <br>
+<br> <br> <br>
+
+<section id="testimonal">
+<div class="testimonials-container row">
+   <div class="col-3">
+    <br><br><br><br><h2>Testimonials</h2>
+    <p>"My dog's behavior has improved a lot since following the training tips on this website. Highly recommended!"</p>
+        <span>- John Doe</span>
+</div>
+    <div id="t-img" class="testimonial col-7 offset-2">   
+        <br><br> <br> <br>   
+        <br><br> <br> <br>  <br><br> <br> <br>  <br><br> <br> <br>   <br><br><br><br>
+                <div class="col-2 offset-10">
+                <button class="btn" onclick="back()"><div class="left1"></div></button>
+                <button class="btn" onclick="front()"><div class="right1"></div></button>
+                </div>
+   
+    </div>
+    </div>
+</section>
+<br> <br> <br>
+<br> <br> <br>
+
+
+<section id="breeds">
+    <h1> Some of the known dog breeds </h1>
+    <div class="container">
+    <div class="row">
+        <div class="col-2">
+            <img  src="https://upload.wikimedia.org/wikipedia/commons/3/31/BeauceronStand.jpg">
+            <h3> BEAUCERON </h3>
+        </div>
+        <div class="col-3 offset-3">
+            <img style="width:100%; height:82%;" src="https://i.pinimg.com/736x/bc/0a/08/bc0a08eab8581b5e0ef2e1c897851775.jpg">
+            <h3> BOXER </h3>
+        </div>
+        <div class="col-4 ">
+            <img style="width:100%; height: 80%;" src="https://cdn.britannica.com/49/236049-050-AEEBDD63/Dalmation-dog-brown-and-white.jpg">
+            <h3>DALMATIAN</h3>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-4">
+            <img style="width:100%; height:80%;" src="https://images.saymedia-content.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:eco%2Cw_1200/MjAwMzg3MjgzOTk0NjE3MjA4/doberman-pinscher-guide.jpg">
+            <h3> DOBERMAN PINSCHER </h3>
+        </div>
+        <div class="col-4 ">
+            <img style="width:100%; height:82%;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/German_Shepherd_-_DSC_0346_%2810096362833%29.jpg/220px-German_Shepherd_-_DSC_0346_%2810096362833%29.jpg">
+            <h3> GERMAN SHEPHERD </h3>
+        </div>
+        <div class="col-4 ">
+            <img style="width:100%; height: 82%;" src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Golden_Retriever_Dukedestiny01_drvd.jpg">
+            <h3>GOLDEN RETRIEVER </h3>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-4">
+            <img style="width:100%; height:80%;" src="https://upload.wikimedia.org/wikipedia/commons/f/f5/BIR_Grupp_5-_JAPANSK_SPETS%2C_Chezzay%E2%80%99s_Nice_N%E2%80%99Easy_%2823938629860%29.jpg">
+            <h3> JAPANESE SPITZ </h3>
+        </div>
+        <div class="col-4 ">
+            <img style="width:100%; height:82%;" src="https://cdn.britannica.com/42/233842-050-E64243D7/Pomeranian-dog.jpg">
+            <h3> POMERANIAN</h3>
+        </div>
+        <div class="col-4 ">
+            <img style="width:100%; height: 82%;" src="https://cdn.britannica.com/69/234469-050-B883797B/Rottweiler-dog.jpg">
+            <h3>ROTTWEILER  </h3>
+        </div>
+    </div>
+    </div>
+</section>
+
+
+
+<br> <br> <br><br><br>
+
+
+<section id="image-section">
+    <div class="image-container">
+        <img src="https://thumbs.dreamstime.com/z/funny-golden-retriever-labrador-puppy-lying-stretched-poolside-photo-lazy-little-swimming-pool-side-training-dogs-fun-92486056.jpg" alt="Image 1">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShbHDSP9EUaGcbqAiA_t2sbBIwbZm0b0LTLg&usqp=CAU" alt="Image 2">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT1U9XyBKF9MPOK27YUzuHcGPH5tjeEzwICw&usqp=CAU" alt="Image 3">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCwlk8XMbsQRaYB9e52P3HCwEDdyGADUGaOA&usqp=CAU" alt="Image 4">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPrcbKrcXmVIfssV7NZLRtgVi-1W9nbohEyA&usqp=CAU" alt="Image 5">
+    </div>
+</section>
+
+</div>
+</body>
+</html>
